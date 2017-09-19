@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+  <h1>Register</h1>
+
+  <form>
+    <div> 
+     <label for="fn">First Name: </label>
+     <input name="fn" id = "fn" type="text" placeholder="john" required>
+     <label for="ln">Last Name:</label>
+     <input name="ln" id = "ln" type="text" placeholder="smith" required>
+    </div>
+    <div>
+     <label for="male">Male</label>
+     <input id="male" name="GenderChoice" type="radio" value="male"> 
+     <label for="female">female</label>
+     <input id="female" name="GenderChoice" type="radio" value="female"> 
+     <label for="other">Other</label>
+     <input id="other" name="GenderChoice" type="radio" value="other"> 
+   </div>
+   <div>
+     <label for="email">Email: </label>
+     <input name="email" id = "email" type="email" placeholder="your email" required>
+     <label for="password">Password: </label>
+     <input name="password" id = "password" type="password" placeholder="your password" required pattern=".{5,10}" title="password must be in between 5 to 10 charecters">
+   </div> 
+   <div>
+   	 <label> Birthday:
+   	   <select name="month">
+   	   	 <option>Month</option>
+   	   	 <option>Jan</option>
+   	   	 <option>Feb</option>
+   	   	 <option>Mar</option>
+   	   	 <option>Apr</option>
+   	   	 <option>May</option>
+   	   	 <option>Jun</option>
+   	   	 <option>Jul</option>
+   	   	 <option>Aug</option>
+   	   	 <option>Sept</option>
+   	   	 <option>Oct</option>
+   	   	 <option>Nov</option>
+   	   	 <option>Dec</option>
+   	   </select>
+      <select name ="day">
+   	   	 <option>Day</option>
+   	   	 <option>1</option>
+   	   	 <option>2</option>
+   	   	 <option>3</option>
+   	   	 <option>4</option>
+   	   	 <option>5</option>
+   	   	 <option>6</option>
+   	   	 <option>7</option>
+   	   	 <option>8</option>
+   	   	 <option>9</option>
+   	   	 <option>10</option>
+   	   	 <option>11</option>
+   	   	 <option>12</option>
+         <option>13</option>
+         <option>14</option>
+         <option>15</option>
+         <option>16</option> 
+         <option>17</option>
+         <option>18</option>
+         <option>19</option> 
+         <option>20</option>
+         <option>21</option> 
+         <option>22</option>
+         <option>23</option>
+         <option>24</option>
+         <option>25</option>
+         <option>26</option>
+         <option>27</option>
+         <option>28</option>
+         <option>29</option>
+         <option>30</option>
+         <option>31</option>	   
+   	   </select>
+         <select name="year">
+   	   	 <option>Year</option>
+   	   	 <option>1990</option>
+   	   	 <option>1991</option>
+   	   	 <option>1992</option>
+   	   	 <option>1993</option>
+   	   	 <option>1994</option>
+   	   	 <option>1995</option>
+   	   	 <option>1996</option>
+   	   	 <option>1997</option>
+   	   	 <option>1998</option>
+   	   	 <option>1999</option>
+   	   </select>
+   </div>
+   <div>
+     <label>
+        I agree to the terms and conditons
+        <input name= "agreed" type = "checkbox" required > 
+     </label>    
+   </div>
+   <div>
+      <input type="submit">
+   </div>   
+</body>
+</html>
