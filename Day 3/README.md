@@ -1,2 +1,2 @@
-# CSI-WebDev-Workshop
-Front-end Bootstrap Workshop
+# CSI-Workshop
+Front-end Bootstrap Workshop with added functionalities
